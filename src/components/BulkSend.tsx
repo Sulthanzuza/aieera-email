@@ -73,7 +73,7 @@ const BulkSend: React.FC<BulkSendProps> = ({
     
     try {
       // Replace with your actual backend endpoint
-      const response = await axios.post('http://localhost:3001/api/send-bulk', {
+      const response = await axios.post('https://aieera-email.onrender.com/api/send-bulk', {
         credentials,
         template
       });

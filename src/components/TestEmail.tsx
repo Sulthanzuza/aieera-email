@@ -53,7 +53,7 @@ const TestEmail: React.FC<TestEmailProps> = ({
     
     try {
       // Replace with your actual backend endpoint
-      await axios.post('http://localhost:3001/api/send-test', {
+      await axios.post('https://aieera-email.onrender.com/api/send-test', {
         credentials,
         template,
         testEmail
